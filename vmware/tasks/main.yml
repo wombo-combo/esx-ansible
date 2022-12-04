@@ -1,5 +1,5 @@
 ---
 
 - name: updateESX
-  hosts: esxi
+  hosts: vmware
   shell: esxcli software profile update -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml -p VMware-ESXi-7.0U3g-20328353-depot
