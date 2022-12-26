@@ -1,4 +1,4 @@
 ---
 
 - name: updateESX
-  shell: esxcli software profile update -d /vmfs/volumes/dc05e3cc-09e3e74d/shared/updates/VMware-ESXi-7.0U3g-20328353-depot.zip --profile=ESXi-7.0U3g-20328353-depot
+  shell: esxcli software profile update -d /vmfs/volumes/dc05e3cc-09e3e74d/shared/updates/VMware-ESXi-7.0U3g-20328353-depot.zip --profile=ESXi-7.0U3g-20328353-standard
